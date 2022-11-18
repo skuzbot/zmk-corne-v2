@@ -4,10 +4,10 @@
 #include <dt-bindings/zmk/outputs.h>
 
 /* Layers */
-#define DEF_L 0
-#define NAV_L 1
-#define SYM_L 2
-#define NUM_L 3
+#define DEF 0
+#define NAV 1
+#define SYM 2
+#define NUM 3
 
 
 / {
