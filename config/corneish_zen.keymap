@@ -64,11 +64,11 @@
       label = "SYM";
       bindings = <
         // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-             &kp ESC       &kp LBRC      &kp LBKT      &kp LPAR      &kp TILDE         &kp CARET     &kp RBRC      &kp RBKT      &kp RPAR      &kp GRAVE
+             &kp ESC       &kp LBKT      &kp LBRC      &kp LPAR      &kp TILDE         &kp CARET     &kp RPAR      &kp RBRC      &kp RBKT      &kp GRAVE
         // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
              &kp MINUS     &kp ASTRK     &kp EQUAL     &kp UNDER     &kp DOLLAR        &kp HASH      &kp RWIN      &kp RALT      &kp RCTRL     &kp RSHFT
         // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-             &kp PLUS      &kp PIPE      &kp AT        &kp BSLH      &kp PERCENT       &trans        &kp AMPS      &kp QMARK     &kp COLON     &kp EXCL
+             &kp PLUS      &kp PIPE      &kp AT        &kp SLAS      &kp PERCENT       &trans        &kp BSLH      &kp AMPS      &kp QMARK     &kp EXCL
         // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                          &trans        &trans        &trans            &trans        &trans        &trans      
         //                                           ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
