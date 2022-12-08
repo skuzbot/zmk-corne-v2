@@ -1,3 +1,13 @@
+/*
+*
+* forked_from:
+*  https://github.com/ScottCJeffrey/Zen
+*
+* docs:
+*  zmk.dev/docs
+*
+*/
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
@@ -13,7 +23,7 @@
 / {
   chosen {
     //zmk,matrix_transform = &default_transform;
-    zmk,matrix_transform = &five_column_transform;
+    zmk,matrix_transform = &six_column_transform;
   };
 };
 
