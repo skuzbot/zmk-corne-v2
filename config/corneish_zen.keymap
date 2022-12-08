@@ -18,23 +18,6 @@
 #define NAV 2
 #define NUM 3
 
-
-/ {
-  chosen {
-    zmk,matrix_noneform = &default_transform;
-  };
-};
-
-/ {
-   conditional_layers {
-      compatible = "zmk,conditional-layers";
-      tri_layer {
-          if-layers =<2 3>;
-          then-layer = <4>;
-        };
-    };
-};
-
 / {
   keymap {
     compatible = "zmk,keymap";
